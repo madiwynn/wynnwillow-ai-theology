@@ -27,7 +27,7 @@ It is intentionally simple and small. It is not a startup, a product launch, or 
 - **`requirements.txt`**  
   A short list of Python packages used by the sample app.
 
-- **`src/prophecy-analyzer/app.py`**  
+- **Red-thread Analyzer** (`src/prophecy-analyzer/app.py`)  
   A tiny Flask application that:
   - Creates a small SQLite database with a couple of example scripture rows.
   - Exposes an `/analyze` endpoint that looks for a keyword in the input text and returns matching example rows.
